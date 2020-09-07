@@ -1,0 +1,13 @@
+{
+  "name": "howdy.",
+  "description" : "A New Tab replacer.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "hello.html"
+  }
+}
